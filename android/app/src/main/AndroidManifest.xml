@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flutter_course_chat_app_starter">
+    package="com.cpeskw.chatapp">
    <application
         android:label="flutter_course_chat_app_starter"
         android:name="${applicationName}"
