@@ -54,7 +54,15 @@
   ```
   
   
-  
+  2- Replace `main` method with
+  ```dart
+  Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+
+  runApp(MyApp());
+}
+  ```
   
   
   
