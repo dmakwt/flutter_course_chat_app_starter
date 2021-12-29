@@ -46,6 +46,14 @@
   11- Add `GoogleService-info.plist` file to the `Runner` folder (Make sure you have `Copy items if needed` checked) </br> 
   
   
+#### Packages
+  1- Add these packages inside `pubspec.yaml` file
+  ```yaml
+  firebase_core: ^1.10.6
+  cloud_firestore: ^3.1.5
+  ```
+  
+  
   
   
   
