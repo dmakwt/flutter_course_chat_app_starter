@@ -1,16 +1,57 @@
 # flutter_course_chat_app_starter
 
-A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+### Firebase installations
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+  1- Open `Firestore` </br> 
+  2- Click `create database` </br> 
+  3- Choose `test mode`, then click `Next` </br> 
+  4 - Choose `Cloud Firestore location` </br> 
+  5 - Click `Enable` </br> 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+#### Setting up Android
+
+  1- Click `Click Project Overview` </br> 
+  2- Then click the `Android symbol` </br> 
+  3- Add `com.cpeskw.chatapp` in the package name field and `CPES` in the App nickname field </br> 
+  4- Then click `Register` app </br> 
+  5- Then click `Download google-services.json` </br> 
+  6- Click `Next` </br> 
+  7- Click `Next` again and then `Continue to console` </br> 
+  8- Then move `google-services.json` from the `download` location to your project’s `android/app` folder </br> 
+  
+  9-  Open `android/build.gradle` </br> 
+  10- Then add the `classpath 'com.google.gms:google-services:4.3.10'` at the end of the list in the `dependencies` </br> 
+  
+  11- Open `android/app/build.gradle` </br> 
+  12- add `apply plugin: 'com.google.gms.google-services'` after the `apply from` </br>
+  
+  
+#### Setting up iOS
+  1- Click `Click Project Overview` </br> 
+  2- Click `Add app`
+  3- Then click the `iOS symbol` </br> 
+  4- Add `com.cpeskw.chatapp` in the package name field and `CPES` in the App nickname field </br> 
+  5- Then click `Register` app </br> 
+  6- Download GoogleService-info.plist </br> 
+  7- Click `Next` </br> 
+  8- Click `Next` again and then `Continue to console` </br> 
+  9- Move the `GoogleService-info.plist` file to the `ios/Runner` folder </br> 
+  
+  10- Then open `ios/Runner.xcworkspace` in `Xcode` </br> 
+  11- Add `GoogleService-info.plist` file to the `Runner` folder (Make sure you have `Copy items if needed` checked) </br> 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
