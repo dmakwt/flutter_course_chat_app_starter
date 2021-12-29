@@ -69,9 +69,10 @@ class _AuthScreenState extends State<AuthScreen> {
                   },
                 ),
               ),
+              Container(height: 70),
               Container(
                 width: 120,
-                height: 50,
+                height: 40,
                 child: ElevatedButton(
                   onPressed: () {
                     // 1
@@ -84,9 +85,10 @@ class _AuthScreenState extends State<AuthScreen> {
                   child: const Text('Login'),
                 ),
               ),
+              Container(height: 15),
               Container(
                 width: 120,
-                height: 50,
+                height: 40,
                 child: ElevatedButton(
                   onPressed: () {
                     // 2
