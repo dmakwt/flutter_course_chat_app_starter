@@ -87,7 +87,7 @@ class Auth {
     }
   }
 
-  void logout() async {
+  void logout(BuildContext context) async {
     await auth.signOut();
   }
 }
