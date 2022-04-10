@@ -16,7 +16,7 @@ class Auth {
     return auth.currentUser?.email;
   }
 
-  void signup(BuildContext context, String email, String password) async {
+  Future<void> signup(BuildContext context, String email, String password) async {
     try {
       await auth.createUserWithEmailAndPassword(
         email: email,
@@ -52,7 +52,7 @@ class Auth {
     }
   }
 
-  void login(BuildContext context, String email, String password) async {
+  Future<void> login(BuildContext context, String email, String password) async {
     try {
       await auth.signInWithEmailAndPassword(
         email: email,
