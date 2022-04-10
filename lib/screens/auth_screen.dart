@@ -65,9 +65,9 @@ class _AuthScreenState extends State<AuthScreen> {
                 width: 120,
                 height: 40,
                 child: ElevatedButton(
-                  onPressed: () {
+                  onPressed: () async {
                     // 1
-                    Auth().login(
+                   await Auth().login(
                       context,
                       _emailController.text,
                       _passwordController.text,
@@ -81,9 +81,9 @@ class _AuthScreenState extends State<AuthScreen> {
                 width: 120,
                 height: 40,
                 child: ElevatedButton(
-                  onPressed: () {
+                  onPressed: () async {
                     // 2
-                    Auth().signup(
+                  await  Auth().signup(
                       context,
                       _emailController.text,
                       _passwordController.text,
